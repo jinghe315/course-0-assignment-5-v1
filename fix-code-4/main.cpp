@@ -2,14 +2,14 @@
 #include <string>
 using namespace std;
 
-float get_temperature(int input) {
-  return input * 1;
+float GetTemperature1(float input) {
+  return (input * 1.8) + 32;
 }
 
-float get_temperature(float input) {
+float GetTemperature2(float input) {
   return input * 100;
 }
 
 int main() {
-  cout << "the temperature should be 6: " << get_temperature(6.0);
+  cout << "the temperature in F should be: " << GetTemperature1(6.0);
 }

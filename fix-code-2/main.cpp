@@ -2,10 +2,14 @@
 #include <string>
 using namespace std;
 
-string get_temperature() {
-  return "celcius";
+float GetTemperature() {
+  cout << "Temperature in celcius: ";
+  float celcius;
+  cin >> celcius;
+  return celcius;
 }
 
 int main() {
-  int temp = get_temperature();
+  int temp;
+  temp = GetTemperature();
 }

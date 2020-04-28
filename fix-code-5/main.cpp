@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-float divideNumbers(const float value1, const float value2) {
-  return value1 * value2;
+float DivideNumbers(const float value1, const float value2) {
+  return value1 / value2;
 }
 
 int main() {
@@ -12,8 +12,8 @@ int main() {
 
   cout << "Enter a number: ";
   cin >> val1;
-  cout << "Enter another number; ";
+  cout << "Enter another number: ";
   cin >> val2;
 
-  cout << "The value of the two numbers divided is: " << divideNumbers(val1, val2);
+  cout << "The value of the two numbers divided is: " << DivideNumbers(val1, val2);
 }
